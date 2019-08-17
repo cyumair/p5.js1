@@ -1,0 +1,64 @@
+nes (55 sloc) 985 Bytes
+html {
+	height: 100%;
+	width : 100%;
+}
+
+h1{
+    font-size: 400%;
+	font-family: 'Gloria Hallelujah', cursive;
+	color : #1D2228 ;
+	position: relative;
+    top: 50px;
+	text-align: center;
+	padding: 5px ;	
+}
+strong{
+	cursor: default;
+}
+.b1 {
+	position: relative;
+   // margin-top: 350px ;
+   // margin-bottom: 30px;
+    
+	font-weight: 700 ;
+	text-transform: uppercase;
+	border-radius: 300px ;
+	font-family:'Righteous', cursive;
+	color : red ; 
+	border-width: 5px ;
+	text-align: center;
+}
+.b2 { 
+      padding :1rem 2rem;
+      font-size: 150%;
+}
+.b3 {
+	background-color: #1D2228;
+	border-color: #000000;
+	}
+.b3:hover {
+	border-width: 5px ; 
+	background-color: red ; 
+	border-color :black ;
+	cursor:pointer;
+}
+#go{
+  display:block ; 
+  width:207px;
+  position:absolute;
+  top: 70%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  text-align: center;
+}
+footer{
+	
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #1D2228 ;
+  text-align: center;
+
+}
